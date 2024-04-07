@@ -1,0 +1,197 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Bulatkan Gambar */
+.image4 {
+  border-radius: 50%;
+}
+.image1 {
+  border-radius: 50%;
+}
+
+/* Main Content */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f00;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #333;
+  border-radius: 3px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu.active {
+  display: block;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-bottom: 15px;
+}
+
+.nav-menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+  color: #000;
+}
+
+/* Portfolio */
+.portfolio-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  position: relative;
+}
+
+.portfolio-item img {
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Contact Form */
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f00;
+}
+/* Background Putih untuk Blockquote */
+blockquote {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Background Putih untuk Portfolio */
+.portfolio-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
