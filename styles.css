@@ -1,0 +1,262 @@
+/* Reset CSS */
+p {
+  text-align: justify; /* Membuat teks rata kanan dan kiri */
+}
+main {
+  padding: 20px;
+  margin-left: 250px; /* Add left margin equal to menu width */
+}
+.hamburger-menu {
+  display: inline-block; /* Allow menu to be placed inline */
+  cursor: pointer; /* Indicate interactivity on hover */
+  position: relative; /* Needed for sub-elements positioning */
+  z-index: 10;
+}
+/* Main Content (Adjust styles for other sections like skills, portfolio, etc.) */
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #333; /* Adjust color as needed */
+  border-radius: 3px;
+}
+
+/* Navigation Menu */
+
+.nav-menu {
+  display: none; /* Initially hide the menu */
+  position: fixed; /* Fix menu to viewport on open */
+  top: 0; /* Position at top of viewport */
+  left: 0; /* Align to left edge */
+  width: 250px; /* Set desired width for the menu */
+  height: 100vh; /* Take full viewport height */
+  background-color: #fff; /* White background */
+  padding: 20px; /* Add padding for content */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.nav-menu.active {
+  /* Style for active menu state */
+  display: block;
+}
+
+.nav-menu ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-bottom: 15px;
+}
+
+.nav-menu a {
+  color: #333; /* Adjust link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Set link text size */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.nav-menu a:hover {
+  color: #000; /* Change link color on hover */
+}
+
+/* Main Content (Adjust styles for other sections like skills, portfolio, etc.) */
+main {
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image1 {
+  position: relative;
+}
+
+.image4 {
+  border-radius: 50%;
+}
+.image1 {
+  border-radius: 50%; /* Mengatur gambar menjadi lingkaran */
+  width: 300px;
+  height: 200px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.portfolio-item {
+  background-color: #f5deb3; /* Kode warna krem */
+  position: relative;
+}
+.stat-count {
+  color: #ffd700; /* Atur warna teks menjadi kuning */
+}
+
+.portfolio-item button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.skills-descriptions h3,
+.skills-descriptions p {
+  white-space: nowrap;
+}
+p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f00; /* Ganti dengan warna yang diinginkan */
+}
+
+section.stats {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+}
+
+.stats-list li {
+  display: inline-block;
+  margin: 0 20px;
+  color: #777;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+.skills-descriptions h3 {
+  margin-top: 10px;
+}
+
+.Riviews-container {
+  margin-top: 20px;
+}
+
+blockquote {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+blockquote img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.portfolio-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.portfolio-item img {
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.portfolio-item {
+  position: relative;
+}
+.skills-descriptions {
+  text-align: left; /* Mengatur teks ke kiri */
+}
+
+.portfolio-item button {
+  position: absolute;
+  top: 0;
+  left: 50%; /* Menggeser tombol ke tengah */
+  transform: translateX -50%; /* Untuk menggeser tombol ke tengah secara horizontal */
+  z-index: 1; /* Untuk memastikan tombol berada di atas gambar */
+}
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f00; /* Ganti dengan warna yang diinginkan */
+}
+
+.contact-info {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
