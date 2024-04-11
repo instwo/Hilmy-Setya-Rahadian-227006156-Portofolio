@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hilmy Setya Rahadian | UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head> 
+  <body>
+    <header>
+      <h1>Hilmy Setya Rahadian</h1>
+     <div class="image-container">
+  <img class="image1" src="./assets/my foto.jpeg" alt="alt text" width="300" height="200" />
+</div>
+<section id="about">
+  <h2>About</h2>
+        <p>
+          Hello, my name is Hilmy Setya Rahadian. I am a designer with expertise
+          in UI/UX design and graphic design. I have a proven track record of
+          helping companies design user-friendly and visually appealing apps and
+          products.
+        </p>
+
+        <p>
+          I am passionate about creating intuitive and engaging experiences. I
+          believe in the power of design to make a positive impact on how people
+          interact with the digital world.
+        </p>
+      </section>  
+     
+      <h2>UI/UX Designer</h2>
+  
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+  
+    <nav class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </nav>
+    <section class="stats">
+      <ul class="stats-list">
+        <li>
+          <span class="stat-count">69+</span>
+          <p>Satisfied Clients</p>
+        </li>
+        <li>
+          <span class="stat-count">140+</span>
+          <p>Projects Completed</p>
+        </li>
+        <li>
+          <span class="stat-count">70+</span>
+          <p>Reviews Given</p>
+        </li>
+      </ul>
+      
+<main>
+      <section id="skills">
+        <h2>My  Skills</h2>
+        <h1>Why Hire Me For Your Next Project</h1>
+        <ul class="skills-list">
+          <li>UI/UX Design</li>
+          <li>Visual Design</li>
+          <li>Prototyping (Figma)</li>
+          <li>UX Research</li>
+          <li>Design Thinking</li>
+          <li>Front-End Development (basic)</li>
+        </ul>
+          <div class="skills-descriptions">
+            <h3>Visual Design</h3>
+            <p>
+              I can create user interface designs with a focus on usability,
+              aesthetics, and user flow.
+            </p>
+            <h3>UX Research</h3>
+            <p>
+              I craft visually appealing designs that align with your brand
+              identity.
+            </p>
+            <h3>Design Prototype</h3>
+            <p>
+              I develop interactive prototypes to test and refine user journeys.
+            </p>
+          </div>
+        </section>
+    
+    
+
+    <section id="Riviews">
+      <h2>Riviews</h2>
+      <h3>Our Costumer Say something About Us</h3><p> &#8592 &#8594 </p>
+      <div class="Riviews-container">
+        <blockquote>
+          <img class="image4" src="./assets/random person.png" alt="alt text width="200 height="100" />
+          "Hilmy is a talented designer who was able to understand my needs
+          and deliver a user-friendly design that exceeded my expectations."
+          <cite>- Amir Uddin, UX Designer</cite>
+        </blockquote>
+        <blockquote>
+          <img class="image4" src="./assets/random person 1.png" alt="alt text width="200 height="100" />
+          "Hilmy was a pleasure to work with. He is creative, responsive, and
+          delivered the project on time and within budget."
+          <cite>- Salim Ahmed, UI Designer</cite>
+        </blockquote>
+        <blockquote>
+          <img class="image4" src="./assets/random person 2.png" alt="alt text width="400 height="200" />
+          "I highly recommend Hilmy for any UI/UX design project. He is a
+          skilled designer who is passionate about his work."
+          <cite>- Guy Hawkins, UX Designer</cite>
+        </blockquote>
+  </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+       
+         <h3> View some of my latest projects showcasing my design skills and
+          process.
+        </h3>
+        
+        <a href="#" class="portfolio-item"
+          ><img class="image4" src="./assets/project 1.png" alt="alt text" width= "200" height="500" />
+        </a> 
+
+        <a href="#" class="portfolio-item"
+          ><img class="image4" src="./assets/project 2.png" alt="alt text" width= "200" height="500" />
+        </a>
+   
+          <section id="contact">
+            <h2>Let's Discuss Your Project</h2>
+            <p>
+              Let's make something new, different and more meaningful or make
+              thing more visual or conceptual.
+            </p>
+            <form id = "cekvalidasi">
+              <div class="contact-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"  />
+              </div>
+              <div class="contact-form">
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" />
+              </div>
+              <div class="contact-form">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" />
+              </div>
+              <div class="contact-form">
+                <label for="budget">Budget:</label>
+                <input type="text" id="budget" name="budget" />
+              </div>
+              <div class="contact-form">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="contact-form">
+                <button type="submit">Submit Message</button>
+              </div>
+            </form>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="crud.js"></script>
+<!-----<script>
+    $(document).ready(function() {
+        $('#contact-form').submit(function(e) {
+            e.preventDefault(); // Menghentikan pengiriman form bawaan
+
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var phone = $('#phone').val();
+            var message = $('#message').val();
+            var message = $('#Budget').val();
+
+
+            // Validasi
+            if (name.trim() == '') {
+                alert('Mohon masukkan nama lengkap Anda.');
+                return;
+            }
+            if (email.trim() == '') {
+                alert('Mohon masukkan alamat email Anda.');
+                return;
+            }
+            if (!isValidEmail(email)) {
+                alert('Mohon masukkan alamat email yang valid.');
+                return;
+            }
+            if (phone.trim() == '') {
+                alert('Mohon masukkan nomor handphone Anda.');
+                return;
+            }
+            if (!isValidPhone(phone)) {
+                alert('Mohon masukkan nomor handphone yang valid.');
+                return;
+            }
+            if (message.trim() == '') {
+                alert('Mohon masukkan pesan Anda.');
+                return;
+            }
+            if (message.trim().split(/\s+/).length > 50) {
+                alert('Pesan Anda terlalu panjang. Maksimal 50 kata.');
+                return;
+            }
+        });
+
+        function isValidEmail(email) {
+            // Gunakan ekspresi reguler untuk memeriksa validitas email
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function isValidPhone(phone) {
+            // Gunakan ekspresi reguler untuk memeriksa validitas nomor handphone
+            var phoneRegex = /^\d{10,15}$/;
+            return phoneRegex.test(phone);
+        }   
+     
+        
+        // Fungsi untuk menampilkan daftar mahasiswa
+        function displayStudents() {
+            $('#student-list').empty();
+            $.each(students, function(index, student) {
+                $('#student-list').append('<li>' + student.name + ' - ' + student.major + ' <button class="edit" data-id="' + index + '">Edit</button> <button class="delete" data-id="' + index + '">Hapus</button></li>');
+            });
+        }
+        var adds = [];
+        // Fungsi untuk menambahkan mahasiswa
+        function addStudent(name,email,phone,budget,message) {
+            var add = {
+                name: name,
+                email: email,
+                phone: phone,
+                budget:budget,
+                message:message
+            };
+            adds.push(add);
+            
+        }
+        
+        // Fungsi untuk menghapus mahasiswa
+        function deleteStudent(index) {
+            students.splice(index, 1);
+            displayStudents();
+        }
+        
+        // Fungsi untuk mengisi formulir dengan data mahasiswa yang akan diubah
+        function fillForm(index) {
+            var student = students[index];
+            $('#studentId').val(index);
+            $('#name').val(student.name);
+            $('#major').val(student.major);
+        }
+        
+        // Fungsi untuk mengupdate data mahasiswa
+        function updateStudent(index, name, major) {
+            var student = {
+                name: name,
+                major: major
+            };
+            students[index] = student;
+            displayStudents();
+        }
+        
+        $(document).ready(function() {
+            displayStudents();
+        
+            // Menangani submit form
+            $('#student-form').submit(function(e) {
+                e.preventDefault();
+                var id = $('#studentId').val();
+                var name = $('#name').val();
+                var major = $('#major').val();
+                if (id == '') {
+                    addStudent(name, major);
+                } else {
+                    updateStudent(id, name, major);
+                }
+                $('#student-form')[0].reset();
+            });
+        
+            // Menangani klik tombol edit
+            $(document).on('click', '.edit', function() {
+                var index = $(this).data('id');
+                fillForm(index);
+            });
+        
+            // Menangani klik tombol delete
+            $(document).on('click', '.delete', function() {
+                var index = $(this).data('id');
+                deleteStudent(index);
+            });
+        });
+        
+    }); 
+</script>
+
+            <p>**OR**</p>
+            <p>Contact me at:</p>
+            <ul class="contact-info">
+              <li>+6285887389898 (Indonesia)</li>
+
+            
+              </li>
+              <li>
+                Email:
+                <a href="hilmysr1@gmail.com"
+                  >hilmysr1@gmail.com</a
+                >
+              </li>
+            </ul>
+            <p>Address:</p>
+            <ul class="contact-info">
+              <li>Tasik, Jawa barat, Indonesia.</li>
+            </ul>
+          </main>
+          <footer>
+            <p>&copy; 2024 Hilmy Setya Rahadian</p>
+          </footer>
+        
+          <script>
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.nav-menu');
+        
+            function toggleMenu() {
+              hamburgerMenu.classList.toggle('active');
+              navMenu.classList.toggle('active');
+            }
+        
+            hamburgerMenu.addEventListener('click', toggleMenu);
+          </script> ---->
+        </body>
+        
+        </html>
